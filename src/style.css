@@ -25,14 +25,14 @@ body {
 }
 
 .page1 {
-    background: url(Images/Pool\ Injury\ Report\ -\ Fillable\ v2022_page-0001.jpg) no-repeat center center;
+    background: url(images/Pool\ Injury\ Report\ -\ Fillable\ v2022_page-0001.jpg) no-repeat center center;
     background-size: contain;
     resize: both;
     grid-row: 1/2;
 }
 
 .page2 {
-    background: url(Images/Pool\ Injury\ Report\ -\ Fillable\ v2022_page-0002.jpg) no-repeat center center;
+    background: url(images/Pool\ Injury\ Report\ -\ Fillable\ v2022_page-0002.jpg) no-repeat center center;
     background-size: contain;
     resize: both;
     grid-row: 2/3;
