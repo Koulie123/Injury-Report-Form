@@ -45,7 +45,7 @@ body {
 #first-row {
     grid-row: 2/3;
     display: grid;
-    grid-template-columns: 38mm 55mm;
+    grid-template-columns: 38mm 55mm ;
     
 }
 .date-div {
