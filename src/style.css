@@ -1,6 +1,12 @@
+:root {
+    font-family: sans-serif;
+}
+
 body {
     margin: 0;
+    border: 0;
     background: #e0e0e0;
+    font-size: 3.2mm;
 }
 .outer-sheet {
     margin: 0;
@@ -31,9 +37,49 @@ body {
     grid-row: 1/2;
 }
 
+#page1-form {
+    display: grid;
+    padding: 12.5mm;
+    grid-template-rows: 14.5mm 200mm;
+}
+#first-row {
+    grid-row: 2/3;
+    display: grid;
+    grid-template-columns: 38mm 55mm;
+    
+}
+.date-div {
+    display: flex;
+    background-color: white;
+    height: 8mm;
+    width: 38mm;
+
+}
+#first-row > div > input {
+    height: 3mm;
+    font-size: 2.9mm;
+    padding: 0;
+    margin-left: 1mm;
+    margin-top: .5mm;
+}
+.time-div {
+    background-color: white;
+}
+
+
 .page2 {
     background: url(images/Pool\ Injury\ Report\ -\ Fillable\ v2022_page-0002.jpg) no-repeat center center;
     background-size: contain;
     resize: both;
     grid-row: 2/3;
 }
+
+
+
+@media print {
+    .page1 {
+        background: url(images/Pool\ Injury\ Report\ -\ Fillable\ v2022_page-0001.jpg) no-repeat center center;
+        background-size: contain;
+        resize: both;
+        print-color-adjust: exact; /* Adjust color printing for webkit browsers */
+    }}
