@@ -40,12 +40,12 @@ body {
 #page1-form {
     display: grid;
     padding: 12.5mm;
-    grid-template-rows: 14.5mm 200mm;
+    grid-template-rows: 14.5mm 20mm;
 }
 #first-row {
     grid-row: 2/3;
     display: grid;
-    grid-template-columns: 38mm 55mm ;
+    grid-template-columns: 39mm 57mm 150mm;
     
 }
 .date-div {
@@ -65,6 +65,20 @@ body {
 .time-div {
     background-color: white;
 }
+.facility-div {
+    grid-column: 3/4;
+    background-color: white;
+}
+.facility-div > p{
+    height: 8mm;
+    margin: 0.5mm;
+}
+
+
+
+
+
+
 
 
 .page2 {
