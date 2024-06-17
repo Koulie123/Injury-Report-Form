@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    background: #e0e0e0;
+}
+.outer-sheet {
+    margin: 0;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 15px;
+    justify-items: center;
+}
+
+.sheet {
+    margin: 0;
+    overflow: hidden;
+    box-sizing: border-box;
+    page-break-after: always;
+    flex: 1;
+}
+.outer-sheet .sheet {
+    width: 215.9mm;
+    height: 279.4mm;
+    
+}
+
+.page1 {
+    background: url(Images/Pool\ Injury\ Report\ -\ Fillable\ v2022_page-0001.jpg) no-repeat center center;
+    background-size: contain;
+    resize: both;
+    grid-row: 1/2;
+}
+
+.page2 {
+    background: url(Images/Pool\ Injury\ Report\ -\ Fillable\ v2022_page-0002.jpg) no-repeat center center;
+    background-size: contain;
+    resize: both;
+    grid-row: 2/3;
+}
